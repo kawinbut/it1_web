@@ -1,6 +1,8 @@
 import { connectDB } from "@/lib/mongodb";
+import Category from "@/models/Category";
 import Product from "@/models/Product";
 import ProductCard from "@/components/ProductCard";
+
 
 export const dynamic = "force-dynamic";
 
